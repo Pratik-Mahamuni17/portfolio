@@ -216,6 +216,68 @@
         color: gray;
         padding-top: 12px;
       }
+
+   /* 📱 Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .firstSection {
+    flex-direction: column;
+    margin: 80px 0 40px;
+  }
+
+  .leftSection,
+  .rightSection {
+    width: 100%;
+    text-align: center;
+  }
+
+  .leftSection {
+    font-size: 1.8rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .internship-card {
+    padding: 20px;
+  }
+
+  footer .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.4rem;
+  }
+
+  .download-btn {
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+  }
+}
+
+
+
+
+      
     </style>
   </head>
   <body>
